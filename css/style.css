@@ -4,5 +4,40 @@ body {
 }
 
 header {
-    background: #001f25;
+    background: linear-gradient(#01d5ff, #001f25);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 100px;
+    color: white;
+    margin-top: -2%;
+    height: 45%;
+}
+
+.wave {
+    padding-top: 25px;
+    width: 100%;
+    margin-bottom: -1%;
+}
+
+section {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+h2 {
+    color: rgb(32, 121, 161);
+}
+
+footer {
+    background-color: #001f25;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    width: 100%;
+    margin-top: 100px;
 }
