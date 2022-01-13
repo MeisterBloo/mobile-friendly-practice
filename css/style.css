@@ -1,13 +1,11 @@
 body {
     padding: 0%;
     margin: 0%;
-    background: #001f25;
 }
 
 header {
     background: linear-gradient(#01d5ff, #001f25);
     height: 45%;
-    margin-bottom: -2%;
 }
 
 h1 {
@@ -21,6 +19,7 @@ h1 {
 .wave {
     padding-top: 25px;
     width: 100%;
+    margin-bottom: -1%;
 }
 
 .sections {
@@ -45,6 +44,7 @@ footer {
     background-color: #001f25;
     color: white;
     text-align: center;
+    padding-top: 60px;
     padding-bottom: 40px;
     width: 100%;
-    margin-top: 100px;
+}
