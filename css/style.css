@@ -4,9 +4,31 @@ body {
 }
 
 header {
-    background: linear-gradient(#01d5ff, #001f25);
+    background: #01d5ff linear-gradient(#01d5ff, #001f25);
     height: 45%;
 }
+
+@media screen and (min-width: 480px) {
+    header {
+        background: #01ffb3 linear-gradient(#01ffb3, #001f25);
+        height: 45%;    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        background: #01ff41 linear-gradient(#01ff41, #001f25);
+        height: 45%;    
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        background: #9eff01 linear-gradient(#9eff01, #001f25);
+        height: 45%;    
+    }
+}
+
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
