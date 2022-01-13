@@ -1,28 +1,36 @@
 body {
     padding: 0%;
     margin: 0%;
+    background: #001f25;
 }
 
 header {
-    background: #001f25;
     background: linear-gradient(#01d5ff, #001f25);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 100px;
-    color: white;
-    margin-top: -2%;
     height: 45%;
+    margin-bottom: -2%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -2%;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
 }
 
 .wave {
     padding-top: 25px;
     width: 100%;
-    margin-bottom: -1%;
+}
+
+.sections {
+    background-color: white;
+    padding-bottom: 50px;
 }
 
 section {
-    margin-left: 15%;
-    margin-right: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .align-right {
@@ -37,7 +45,6 @@ footer {
     background-color: #001f25;
     color: white;
     text-align: center;
-    padding-top: 50px;
     padding-bottom: 40px;
     width: 100%;
     margin-top: 100px;
